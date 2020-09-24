@@ -1,6 +1,6 @@
 # Hitmul
-[![NuGet package](http://img.shields.io/nuget/v/Sekwell?style=flat&logo=nuget)](https://www.nuget.org/packages/Hitmul/ "View this project on NuGet")
-[![Build Status](https://travis-ci.com/Shamus03/Hitmul.svg?token=WuKfy3V3Yw7K95LjG4aM&branch=master)](https://travis-ci.com/Shamus03/Hitmul)
+[![NuGet package](http://img.shields.io/nuget/v/HitmulCore?style=flat&logo=nuget)](https://www.nuget.org/packages/HitmulCore/ "View this project on NuGet")
+[![Build Status](https://travis-ci.com/Shamus03/Hitmul.svg?branch=master)](https://travis-ci.com/Shamus03/Hitmul)
 
 A basic formatter that uses FormattableString to automagically escape HTML.
 
