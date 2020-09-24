@@ -12,5 +12,5 @@ script:
 deploy:
   skip_cleanup: true
   provider: script
-  script: dotnet nuget push Hitmul/bin/Release/Hitmul.*.nupkg -s "$NUGET_SOURCE" -k "$NUGET_API_KEY"
+  script: dotnet nuget push HitmulCore/bin/Release/HitmulCore.*.nupkg -s "$NUGET_SOURCE" -k "$NUGET_API_KEY"
 
