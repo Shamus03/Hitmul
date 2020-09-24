@@ -1,0 +1,16 @@
+language: csharp
+mono: none
+dotnet: 3.1
+
+install:
+ - dotnet restore
+
+script:
+ - dotnet build -c Release -p:Version="3.0.$TRAVIS_BUILD_NUMBER"
+ - dotnet test
+
+deploy:
+  skip_cleanup: true
+  provider: script
+  script: dotnet nuget push Hitmul/bin/Release/Hitmul.*.nupkg -s "$NUGET_SOURCE" -k "$NUGET_API_KEY"
+
